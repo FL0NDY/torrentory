@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    color: black;
+}
+
+.nigeria_photo{
+    margin-left: 0px;
+    height: 600px;
+    background-image: url(fon2.jpg);
+    @media (max-width: 576px){
+       
+    }
+}
+
+.block{
+    background-color:rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(6, calc(100% / 6));
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    @media (min-width: 0px) and (max-width: 576px) {
+        grid-template-columns: 100%; 
+        width: 100%;
+        padding: 0px;
+    }
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.reviews{
+    width: 30%;
+    background-color: gray;
+    padding: 50px;
+    padding-top: 100px;
+    @media (min-width: 0px) and (max-width: 576px) {
+        padding-top: 50px;
+    }
+    @media (min-width: 576px) and (max-width: 992px) {
+        padding-top: 70px;
+    }
+}
+
+.bg{
+    background: url(fon.jpg);
+    height: calc(100vh - 91px);
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: grid;
+        font-size: 28px;
+        grid-template-columns: 100%;
+        align-items: center;
+        text-align: center;
+
+
+}
+.about{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-bottom: 150px;
+    background-color: lightgray;
+    @media (min-width: 0px) and (max-width: 576px) {
+        padding-bottom: 70 px; 
+        padding-top: 50px;
+    }
+    @media (min-width: 576px) and (max-width: 992px) {
+        padding-top: 70px; 
+        padding-bottom: 100px;
+    }
+    
+}
+.nigga{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    margin: auto;
+
+    @media (min-width: 0px) and (max-width: 992px) {
+        grid-template-columns: 100%;
+    }
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(2, 50%);
+    }
+    
+}
+.nigger_text{
+    line-height: 1.7;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+
+.product_container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    h2{
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    @media (min-width: 0px) and (max-width: 576px) {margin-top: 50px; margin-bottom: 70px;}
+    @media (min-width: 576px) and (max-width: 992px) {margin-top: 70px; margin-bottom: 100px;}
+}
+.product_photo1{
+    background: url(gta.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+
+    @media (min-width: 0px) and (max-width: 576px) {grid-template-columns: 100%;}
+    @media (min-width: 577px) and (max-width: 992px) {grid-template-columns: repeat(2, 50%);}
+    @media (min-width: 993px) {grid-template-columns: repeat(4, 25%);}
+    
+}
+.product_photo2{
+    background: url(gta1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo3{
+    background: url(gta2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo4{
+    background: url(gta3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo5{
+    background: url(farcry6.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo6{
+    background: url(farcry5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo7{
+    background: url(farcry4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product_photo8{
+    background: url(farcry3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.ok{
+        display: flex;
+}
+
+.menu-item{
+    text-align: center;
+    @media (min-width: 0px) and (max-width: 576px){
+        border-bottom: 1px solid #353536;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #454545;
+        display: none;
+}
+}
+a:hover{
+    color: #0035ff;
+}
+.product:hover{
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 0.9;
+}
+.ham:checked ~ .menu-item{
+    display: block;
+    
+}
+
+.ham{
+    @media (min-width: 576px){
+        display: none;
+    }
+}
+label{
+    color: #0035ff;
+    @media (min-width: 576px){
+        display: none;
+    }
+}
+input{
+    display: none;
+}
+.rev{
+    font-size: 30px;
+margin: auto;
+padding: auto;
+text-align: center;
+}
+textarea{
+    width: 100%;
+}
+.reviews_container{
+    width: 70%;
+    margin: auto;
+    padding: auto;
+}
+button[onclick="Test()"]{
+    margin: 10px;
+    display: block;
+    height: 40px;
+    width: 255px;
+    background-color: rgb(51, 51, 155);
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2%;
+}
+.review{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+}
+.css-delo{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3 - 30px));
+    gap: 30px;
+}
+.img1{
+background: url(img1.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img2{
+background: url(img2.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img3{
+background: url(img3.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img4{
+background: url(img4.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img5{
+background: url(img5.jpeg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img6{
+background: url(img6.jpg);
+background-size: cover;
+}
+.img7{
+background: url(img7.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img8{
+background: url(img8.jpg);
+background-size: cover;
+}
+.img9{
+background: url(img9.png);
+background-size: cover;
+background-position: center;
+height: 350px;
+opacity: 1.05;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover,.img9:hover{
+    opacity: 1;
+    transition: opacity 1s linear;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+label{
+    padding: 10px;
+}
+span{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
